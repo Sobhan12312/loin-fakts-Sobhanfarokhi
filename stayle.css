@@ -32,12 +32,12 @@ nav{
     width: 100%;
     height: 80px;
     /* background: rgb(2,0,36); */
-    background:grey;
+    background:rgb(137, 137, 137);
     /* background: linear-gradient(90deg, rgba(214,212,10,1) 0%, rgba(249,191,0,1) 35%, rgba(233,244,255,1) 100%); */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow:2PX 2PX 2PX 2PX rgb(56, 56, 56);
+    box-shadow:2PX 2PX 2PX 2PX rgb(94, 91, 91);
     
 }
 img{
@@ -167,7 +167,22 @@ h3{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
     
+    
+}
+.litelfot1{
+    width:25% ;
+    height: 100%;
+    display: flex;
+  justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.social{
+    width: 18%;
+    height:18%;
 }
 .box1{
    width: 100%;
@@ -239,7 +254,7 @@ justify-content: space-between;
 }
 footer{
     width: 100%;
-    height: 12%;
+    height: 130px;
     background:grey;
 
     box-shadow: 20px 20px 20px 20px  rgb(56, 56, 56);
@@ -340,6 +355,11 @@ footer{
         width: 45%;
         height: 50%;
         margin-left: 10px;
+    }
+    .litelfot1{
+        width: 100%;
+        height: 50%;
+     
     }
     .lionbabymain{
         display: flex;
